@@ -13,8 +13,10 @@ The output is rendered back to the build directory as `index.html`.
 If you wish to view the output and have python installed, change directory to
 the build output and run a http server:
 
+``` sh
 $ cd build
 $ python -m http.server
+```
 
 Then navigate to a web browser and open a page to the appropriate localhost endpoint, typically http://localhost:8000
 
